@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+    flex-wrap: wrap;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.right{
+    display: flex;
+    margin-left: auto;
+    padding: 16px;
+    gap: 30px;
+}
