@@ -1,11 +1,14 @@
+
+/* header */
+
 .header{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #1F2937;
     color: white;
     padding-left: 200px;
     padding-right: 200px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 a{
@@ -18,4 +21,49 @@ a{
     margin-left: auto;
     padding: 16px;
     gap: 30px;
+    height: auto;
+}
+
+.left{
+    font-weight: 700;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;;
+    padding-top: 50px;    
+}
+
+.txtbtn{
+    display: flex;
+    flex-direction: column;
+}
+
+.img{
+    padding: 30px;
+    padding-left: 100px; 
+    margin-left: auto;
+}
+
+button{
+    width: 100px;
+    background-color: #3882f6 ;
+    color: #f9faf8;
+    border-radius: 4px;
+}
+
+.big, h2{
+    margin-bottom:0px;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.top{
+    display: flex;
+    flex: 1;
+}
+
+p{
+    color: #e5e7eb;
 }
